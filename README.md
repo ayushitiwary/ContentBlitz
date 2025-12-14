@@ -12,6 +12,16 @@ An intelligent multi-agent content marketing assistant that automates research, 
 - **SEO Optimization**: Content optimized for search engines
 - **Platform-Specific Publishing**: Content tailored for different platforms
 
+## Agents
+
+ContentBlitz uses 5 specialized AI agents:
+
+- **🔍 Research Agent**: Conducts web research and gathers data using Serper API (Google Search)
+- **✍️ Blog Agent**: Creates long-form, SEO-optimized blog posts and articles
+- **💼 LinkedIn Agent**: Generates professional LinkedIn posts with engagement optimization
+- **🎨 Image Agent**: Creates AI-generated images using DALL-E 3
+- **🧭 Router Agent**: Intelligently routes requests to the appropriate agent(s)
+
 ## Architecture
 
 ```
@@ -74,4 +84,3 @@ streamlit run ui/app.py
 ## License
 
 MIT
-
